@@ -1,0 +1,137 @@
+Testing techniques lab session questions
+
+1.Do the boundary value analysis for the below scenario
+
+ 	
+
+  2.  Do the boundary value analysis for the below scenario
+ 
+
+3.  One of the fields on a form contains a text box which accepts numeric values in the range of 18 to 25. Identify the invalid Equivalence class.
+a)    17 a
+b)    19
+c)    24
+d)    21
+
+4. In an Examination a candidate has to score minimum of 24 marks in order to clear the exam. The maximum that he can score is 40 marks.  Identify the Valid Equivalence values if the student clears the exam.
+a)    22, 23, 26
+b)    21, 39, 40
+c)    29, 30, 31 c
+d)    0, 15, 22
+
+5. One of the fields on a form contains a text box which accepts alpha numeric values. Identify the Valid Equivalence class
+a)    BOOK
+b)    Book
+c)    Boo01k c 
+d)    Book
+
+6. The Switch is switched off once the temperature falls below 18 and then it is turned on when the temperature is more than 21. When the temperature is more than 21. Identify the Equivalence values which belong to the same class.
+
+a)    12, 16, 22
+b)    24, 27, 17
+c)    22, 23, 24 c
+d)    14, 15, 19
+
+7. A program validates a numeric field as follows: values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected. Which of the following input values cover all of the equivalence partitions?
+
+a. 10, 11, 21
+b. 3, 20, 21
+c. 3, 10, 22 c
+d. 10, 21, 22
+
+
+
+8. A program validates a numeric field as follows: values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected. Which of the following covers the MOST boundary values?
+
+a. 9,10,11,22
+b. 9,10,21,22 b
+c. 10,11,21,22
+d. 10,11,20,21
+
+9. In a system designed to work out the tax to be paid:
+An employee has £4000 of salary tax free.
+The next £1500 is taxed at 10%.
+The next £28000 after that is taxed at 22%.
+Any further amount is taxed at 40%.
+
+To the nearest whole pound, which of these groups of numbers fall into three DIFFERENT equivalence classes?
+
+a)    £4000; £5000; £5500
+b)    £32001; £34000; £36500
+c)    £28000; £28001; £32001 c
+d)   £4000; £4200; £5600
+
+
+10. In a system designed to work out the tax to be paid:
+An employee has £4000 of salary tax free.
+The next £1500 is taxed at 10%.
+The next £28000 after that is taxed at 22%.
+Any further amount is taxed at 40%.
+
+To the nearest whole pound, which of these is a valid Boundary Value Analysis test cas
+e?
+a)    £28000 a
+b)    £33501
+c)    £32001
+d)    £1500
+
+11. Given the following specification, which of the following values for age are in the SAME equivalence partition?
+
+If you are less than 18, you are too young to be insured.
+Between 18 and 30 inclusive, you will receive a 20% discount.Anyone over 30 is not eligible for a discount.
+
+a)    17, 18, 19
+b)    29, 30, 31
+c)    18, 29, 30 c
+d)    17, 29, 31
+
+
+12. In a system designed to work out the tax to be paid:
+An employee has £4000 of salary tax free. The next £1500 is taxed at 10% The next £28000 is taxed at 22% Any further amount is taxed at 40% To the nearest whole pound, which of these is a valid Boundary Value Analysis test case?
+a)    £1500 a
+b)    £32001
+c)    £33501
+d)    £28000
+
+13. Order numbers on a stock control system can range between 10000 and 99999 inclusive. Which of the following inputs might be a result of designing tests for only valid equivalence classes and valid boundaries?
+a) 1000, 50000, 99999
+b) 9999, 50000, 100000
+c) 10000, 50000, 99999 c
+d) 10000, 99999, 100000
+
+
+14. A program validates a numeric field as follows:
+Values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected. Which of the following input values cover all of the equivalence partitions?
+
+a. 10, 11, 21
+b. 3, 20, 21
+c. 3, 10, 22 c
+d. 10, 21, 22
+
+
+15. An input field takes the year of birth between 1900 and 2004.
+The boundary values for testing this field are:
+
+a.	0,1900,2004,2005
+b. 1900, 2004
+c. 1899,1900,2004,2005 c
+d. 1899, 1900, 1901,2003,2004,2005
+16 .Prepare the decision based table for the below scenario
+You can upload only ‘.jpg’ format image
+1.	file size less than 32kb
+2.	resolution 137*177.
+If any of the conditions fails the system will throw a corresponding error message stating the issue and if all conditions are met photo will be updated successfully
+ 
+17. Prepare the decision based table for the below scenario
+ 
+
+
+18: Given the following state transition table Which of the test cases below will cover the following series of state transitions? S1 SO S1 S2 SO
+  a
+19 Given the following state transition diagram Which of the following series of state transitions contains an INVALID transition which may indicate a fault in the system design? Exhibit:
+ c
+20. Consider the following state transition diagram of a switch. Which of the following represents an invalid state transition?
+ c
+21. Provide examples of situations where error guessing might be an effective testing technique.
+22 . How does error guessing differ from other formal testing methods like boundary testing or equivalence partitioning?
+23. Explain how domain knowledge and experience play a crucial role in error guessing during testing.

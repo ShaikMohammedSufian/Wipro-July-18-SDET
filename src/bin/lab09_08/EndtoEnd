@@ -1,0 +1,24 @@
+	
+	
+	https://demo.testfire.net/sendFeedback
+	
+Severity	Bugs
+	
+	
+	
+	
+Mid	User click on search field and enter data and go to that page
+High	User clicks on feedback link in the main page and try to submit the data without filling the feedback
+High	No Signup Option
+mid	Location page is showing error
+	
+	
+	
+	
+	http://zero.webappsecurity.com/index.html
+	
+Severity	Bugs
+	
+High	1.Sign Up is not available to create new account
+High	2.In forgert Password even if user doesn’t give a mail it shows sent email
+High	3.Upon signin it is redirecting to error page with message "zero.webappsecurity.com uses an unsupported protocol."

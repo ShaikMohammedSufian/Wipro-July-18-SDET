@@ -1,0 +1,22 @@
+use studentrepo;
+
+create table nurse(
+employeeid int primary key,
+name varchar(40) not null,
+position varchar (50),
+registered varchar(1),  
+ssn varchar(20)
+);
+
+insert into nurse (employeeid, name, position, registered, ssn) values
+(101, 'Carla Espinosa', 'Head Nurse', 't', '11111110'),
+(102, 'Laverne Roberts', 'Nurse', 't', '22222220'),
+(103, 'Paul Flowers', 'Nurse', 'f', '33333330');
+
+select * from nurse;
+
+select * from nurse
+where registered = 'f';
+
+
+select name as "Name", position as "Position" from nurse;
