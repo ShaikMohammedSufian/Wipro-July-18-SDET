@@ -1,0 +1,118 @@
+1. Which of the following is not OOPS concept in Java?
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Compilation
+
+Answer: d
+
+
+2. Which of the following is a type of polymorphism in Java?
+a) Compile time polymorphism
+b) Execution time polymorphism
+c) Multiple polymorphism
+d) Multilevel polymorphism
+
+Answer:a
+3. When does method overloading is determined?
+a) At run time
+b) At compile time b
+c) At coding time
+d) At execution time
+
+4. When Overloading does not occur?
+
+a) More than one method with same name but different method signature and different number or type of parameters
+
+b) More than one method with same name, same signature but different number of signature
+
+c) More than one method with same name, same signature, same number of parameters but different type
+
+d) More than one method with same name, same number of parameters and type but different signature
+
+Answer: d
+
+
+5. Which concept of Java is a way of converting real world objects in terms of class?
+a) Polymorphism
+b) Encapsulation
+c) Abstraction
+d) Inheritance
+
+Answer: c
+6. Which concept of Java is achieved by combining methods and attribute into a class?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Abstraction
+
+Answer: a
+
+7. What is it called if an object has its own lifecycle and there is no owner?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association
+
+Answer: d?
+
+8. What is it called where child object gets killed if parent object is killed?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association
+
+Answer: b
+
+9. What is it called where object has its own lifecycle and child object cannot belong to another parent object?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association
+
+Answer: a?
+
+10. Method overriding is combination of inheritance and polymorphism?
+a) True
+b) false
+
+Answer: a
+
+
+11. Why classes are known as abstract data types (ADT)?
+A.	Because classes are user-defined data types
+B.	Because it supports the theory of hierarchical classification
+C.	Because it allows dynamic binding
+D.	Because it uses the concept of data abstraction
+Answer: d
+12.Which is not true about the object-oriented approach?
+A.	Emphasis is on data rather than procedure
+B.	Data is hidden and cannot be accessed by external functions
+C.	Objects communicate through functions
+D.	It supports abstract data but not the class
+Answer: D) It supports abstract data but not the class
+13) An abstract class in Java can be created using the keyword ____.
+A) final
+B) interface
+C) abstract
+D) static
+C
+
+14) To create an Abstract class, the keyword "class" is also required. State TRUE or FALSE.
+A) TRUE
+B) FALSE
+C) -
+D) -
+A
+
+
+abstract class ClassA{ }
+15 )Can you create an object from an abstract class in Java?
+A) Yes
+B) No
+C) -
+D) -
+B
+Explanation: 
+No. You can not instantiate or create an object from an abstract class.
+

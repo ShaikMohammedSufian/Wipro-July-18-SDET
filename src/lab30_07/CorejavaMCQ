@@ -1,0 +1,121 @@
+Skill	Competency	Level	Question	Options	Answer	Topic
+Quality Engineering	Core Java -.Concepts	L0	What is the implementation of the List interface?	HashMap	0	2025_CoreJava_Domain
+				HashSet	0	
+				LinkedList	3	
+				Linked HashSet	0	
+			Which of these maintains insertion order?	List	1	
+				Set	0	
+				All	0	
+				None	0	
+			Which of the following is an invalid declaration for the main method in javprogram?	public static void main (String [] args)	1	
+				public static strictfp void main (String args[ ])	2	
+				final static public void main (String args[ ])	3	
+				ll are Correct	0	
+			Which is non-static method having the same name as its class?	Field	0	
+				Method	0	
+				Constructor	3	
+				None of the above	0	
+			Which method cannot be overridden?	Final Method	1	
+				Final class	0	
+				Final Variable	0	
+				Both & C	0	
+			class which cannot be instantiated is known as?	Abstract Class	1	
+				Abstract Method	0	
+				Both & B	0	
+				None of the above	0	
+			Which of these are selection statements in Java?	break	0	
+				continue	0	
+				for()	0	
+				if()	4	
+			Which of these packages contains the exception Stack Overflow in Java?	java.io	0	
+				java.system	0	
+				java.lang	3	
+				java.util	0	
+			Which of these is correct way of calling constructor having no parameters, of superclass by subclass B?	super(void);	0	
+				superclass.();	0	
+				super.A();	0	
+				super();	4	
+			Which of the following can be declared as final in java?	Class	0	
+				Method	0	
+				Variable	0	
+				All of these	4	
+			What is stringBuffer in java?	Class to create string array.	0	
+				Class to create mutable string in java.	2	
+				Class to create string from i/o buffer.	0	
+				All of these	0	
+			False statement about final method in java	Value of final variable cannot be changed once initialized.	0	
+				Final method is inherited but we cannot override it.	0	
+				If you make class final, then you cannot extend the class.	0	
+				Constructor can be declared as final.	4	
+			Correct statement about class and interface is/are	An interface can extend multiple interfaces.	0	
+				Class can implement multiple interfaces.	0	
+				Javsupport multiple inheritance using interfaces.	0	
+				All of the above.	4	
+			What is the difference between class and an object in Java? 	Class is blueprint for creating objects, while an object is an instance of class. 	1	
+				Class is single entity, while an object is collection of entities. 	0	
+				Class contains datand methods, while an object only contains data. 	0	
+				Class cannot be instantiated, while an object can be created and used. 	0	
+			What is the key difference between while loop and do-while loop in Java?	The syntax used to define the loop	0	
+				The number of iterations performed	0	
+				The condition check timing	3	
+				The ability to use the break statement 	0	
+			Which of these is not an exception-handling keyword in Java?	try	0	
+				catch	0	
+				exit	3	
+				finally	0	
+			Which loop construct in Java is best suited when the number of iterations is known?	for loop	1	
+				if 	0	
+				do-while loop	0	
+				break statement	0	
+			Which inheritance is not supported in java by the concept of inheritance?	Single inheritance	0	
+				Multiple inheritance	2	
+				Multilevel inheritance	0	
+				Java supports all of the above	0	
+			Which is a mechanism in which one object acquires all the properties and behaviors of parent object?	Inheritance	1	
+				Encapsulation	0	
+				Polymorphism	0	
+				None of the above	0	
+			If subclass (child class) has the same method as declared in the parent class, it is known as?	Method overriding	1	
+				Method overloading	0	
+				Constructor overloading	0	
+				None of the above	0	
+			Which is a perfect example of runtime polymorphism?	Method overloading	0	
+				Method overriding	2	
+				Constructor overloading	0	
+				None of the above	0	
+			Which of these keywords is used to manually throw an exception?	finally	0	
+				throw	2	
+				catch	0	
+				try	0	
+			In which of the following package Exception class exist?	java.file	0	
+				java.lang	2	
+				java.io	0	
+				java.util	0	
+			Which exception is thrown when divide by zero statement executes?	NumberFormatException	0	
+				NullPointerException	0	
+				ArithmeticException	3	
+				None of these	0	
+			A java interface can contain ————	public static Final Variables only	0	
+				public Abstract methods	0	
+				Abstract methods(unimplemented) and implemented methods both	3	
+				public static Final Variables and abstract methods both	0	
+			Which is the correct way to inherit and implement the interface? - Consider and example, Interface is Animal and a class is Cat that wants to implement interface.	 class Cat implements  Animal{}	1	
+				class Cat extends Animal{}	0	
+				class Cat import Animal{}	0	
+				None is correct		
+			Which one is correct declaration for implementing two interfaces? Consider, Interface A and B.  class C wants to implements both interfaces.	class C implements A, B	1	
+				class C implements A, implements B	0	
+				class C implements A extends B	0	
+				class C extends A , B	0	
+			Choose a correct statement about Java Interfaces?	Interface contains only abstract methods by default.	0	
+				A Java class can implement multiple interfaces	0	
+				An Interface can extend or inherit another Interface.		
+				All the above	4	
+			Which of these access specifiers must be used for main() method?	private	0	
+				public	2	
+				protected	0	
+				none of the mentioned	0	
+			Static fields belong to the class, not instances of the class?	TRUE	1	
+				FALSE	0	
+				Both A and B	0	
+				None of the above	0	

@@ -1,0 +1,53 @@
+Testcase ID 	Testcase Description 	Feature 	Test steps 	Test data	Expected results	Actual results 
+				https://opensource-demo.orangehrmlive.com/web/index.php/auth/login		
+TC_01	Verify the login functioanlity for valid credentails 	Login	1. User enters valid username 	Admin	User should be able to enter the username 	User is able to enter the username 
+			2. User enters valid password 	admin123	User should be able to enter the password 	User is able to enter the password 
+			3. User clicks on login button 		User is able to click on login button and navigate to home page 	User is on the home page 
+						
+			Invalid username			
+TC_02	Verify the login functioanlity for invalid credentails 	Login	1. User enters invalid username 	Admin^&^&	User should be able to enter the username 	User is able to enter the username 
+			2. User enters valid password 	admin123	User should be able to enter the password 	User is able to enter the password 
+			3. User clicks on login button 		User is able to click on login button but views a error message stating "Invalid username"	User is on the login page only 
+			Invalid password			
+			1. User enters valid username 	Admin	User should be able to enter the username 	User is able to enter the username 
+			2. User enters invalid password 	admin123&&*	User should be able to enter the password 	User is able to enter the password 
+			3. User clicks on login button 		User is able to click on login button but views a error message stating "Invalid password"	User is on the login page only 
+						
+	Verify the login functioanlity for invalid credentails 	Login	1. User enters  blank username 		User should be able to enter the username 	
+			2. User enters valid password 	admin123	User should be able to enter the password 	User is able to enter the username 
+			3. User clicks on login button 		User is able to click on login button but views a error message stating "username Required"	User is able to enter the password 
+						User is on the login page only 
+						
+	Verify the login functioanlity for invalid credentails 	Login	1. User enters valid username 	Admin	User should be able to enter the username 	User is able to enter the username 
+			2. User enters blank password 		User should be able to enter the password 	User is able to enter the password 
+			3. User clicks on login button 		User is able to click on login button but views a error message stating "password Required"	User is on the login page only 
+						
+						
+TC_03	Verify the password masking functionality	Login	1. User enters valid username 	Admin	User should be able to enter the username 	User is able to enter the username 
+			2. User enters valid password	admin123	Password should be displayed as masked (e.g., - - - - - - - - ) and not visible in plain text	User is able to enter the password 
+			3.User click on eye icon to unmask password	admin123	Password should be displayed as visible in plain text	User is on the home page 
+			4.User click on eye icon again	admin123	Password becomes masked again	
+						
+						
+TC_04	Verify the forgot your password functinality 	Forgot Password	1. User clicks "Forgot your password?" link		User receives confirmation for password reset instructions on mail	Confirmation for password reset is sent
+			2. User enters registered username/email	Admin		
+			3. User submits the form			
+		Forgot Password	4. User tries with invalid/unregistered username/email	Adm@example.com	Appropriate error message "User does not exist" is displayed	Error message displayed
+						
+						
+TC_05	Verify the copy right links 	Links	1.User locates copyright link at bottom	NA	Copyright information or related page opens successfully	Copyright info page is opened (or info is displayed)
+			2.User clicks on the copyright link			
+						
+		Links	1.User locates copyright link at bottom	NA	Copyright information or related page  is not showed	Copyright info page is not opened . It will show 404 Error
+			2.User clicks on the copyright link			
+						
+						
+TC_05	Verify the social media links 	Social Media	1.User locates social media icons (LinkedIn, Facebook, Twitter, YouTube) on login page	NA	Corresponding social media page opens in new browser tab	Social media page opens in new tab
+			2.User clicks each icon			
+						
+		Social Media	1.User locates social media icons (LinkedIn, Facebook, Twitter, YouTube) on login page	NA	The Social Media Page is not Opened	Social Media Page IS Not Displayed It wil Show 404 Error
+			2.User clicks each icon			
+						
+						
+TC_06	Verify the orange HRM logo	Logo	1.User checks if OrangeHRM logo is present on login page	NA	OrangeHRM logo should be visibly present and properly aligned	Logo is present and properly displayed
+			2.User clicks on OrangeHRM logo		Clicking logo should refresh page	Page refreshes or redirects accordingly

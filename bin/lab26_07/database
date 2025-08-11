@@ -1,0 +1,49 @@
+use studentrepo;
+
+create table Students(
+	id int primary key,
+    name varchar(50) not null,
+    class varchar(10),
+    marks int,
+    gender varchar(30)
+    
+);
+
+insert into Students (id, name,class,marks,gender) values
+(1, 'John Deo', 'Four', 75, 'female'),
+(2, 'Max Ruin', 'Three', 85, 'male'),
+(3, 'Arnold', 'Three', 55, 'male'),
+(4, 'Krish Star', 'Four', 60, 'female'),
+(5, 'John Mike', 'Four', 60, 'female'),
+(6, 'Alex John', 'Four', 55, 'male'),
+(7, 'My John Rob', 'Five', 78, 'male'),
+(8, 'Asruid', 'Five', 85, 'male'),
+(9, 'Tes Qry', 'Six', 78, 'male'),
+(10, 'Big John', 'Four', 55, 'female');
+
+select * from Students;
+
+update Students
+set marks = 70
+where name = 'Arnold';
+
+delete from Students
+where name = "Tes Qry";
+
+select * from Students
+order by marks desc;
+
+select * from Students
+where gender = "female";
+
+select * from Students
+order by marks asc
+limit 1;
+
+select * from Students
+order by marks desc
+limit 2;
+
+select * from Students
+order by marks asc
+limit 2;

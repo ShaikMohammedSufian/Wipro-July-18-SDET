@@ -1,0 +1,11 @@
+Testcase ID	Testcase Description	Features	Test Steps	Test data	Expected Results	Actual Result
+						
+TC_01	Verify Swag Labs website	SwagLabs	1. User enters valid username 	standard_user	User should be able to enter the username 	User is able to enter the username 
+			2. User enters valid password 	secret_sause	User should be able to enter the password 	User is able to enter the password 
+			3. User clicks on login button 		User is able to click on login button and navigate to home page 	User is on the home page 
+			4.User select Sause Labs Backpack product and clicks to add to cart		User should be able to select the product and product is added to the cart	User is able select the product and product is added to the cart
+			5.User click in add to cart icon		5.User should be able click in add to cart icon	5.User is able click in add to cart icon
+			6. User validates the product and quantity is displayed and click on check out button		6. User should be able validates the product and quantity is displayed and click on check out button	6. User is able validates the product and quantity is displayed and click on check out button
+			7.User enter personal details like first name ,last name and zip  to continue the checkout 		7.User should be able enter personal details like first name, last name and zip  to continue the checkout 	7.User is able enter personal details like first name, last name and zip  to continue the checkout 
+			8.User can see the checkout overview which includes the product, price,address and total and click on finish button		8.User should be able to see the checkout overview which includes the product, price,address and total and click on finish button	8.User is able to see the checkout overview which includes the product, price,address and total and click on finish button
+			9. user can see the chechout complete page 		9. user should be able to  see the chechout complete page 	9. user is able to  see the chechout complete page 

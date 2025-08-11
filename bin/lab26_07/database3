@@ -1,0 +1,45 @@
+use studentrepo;
+
+create table physician(
+employeeid int primary key,
+name varchar(50) not null,
+position varchar(50),
+ssn varchar(50)
+);
+
+
+select * from physician;
+
+insert into physician(employeeid, name, position, ssn) values
+(1, "John Doian", "Staff INternist", "111111111"),
+(2, 'Elliot Reid', 'Attending Physician', '222222222'),
+(3, 'Christopher Turk', 'Surgical Attending Physician', '333333333'),
+(4, 'Percival Cox', 'Senior Attending Physician', '444444444'),
+(5, 'Bob Kelso', 'Head Chief of Medicine', '555555555'),
+(6, 'Todd Quinlan', 'Surgical Attending Physician', '666666666'),
+(7, 'John Wen', 'Surgical Attending Physician', '777777777'),
+(8, 'Keith Dudemeister', 'MD Resident', '888888888'),
+(9, 'Molly Clock', 'Attending Psychiatrist', '999999999');
+
+
+
+create table department(
+departmentid int primary key,
+name varchar(50),
+head int,
+foreign key (head) references physician(employeeid));
+
+insert into department (departmentid, name, head) values
+(1, "general Medicine",4),
+(2, "Surgery",7),
+(3, "Phychiatry", 9);
+
+select * from department;
+
+
+select * from department join physician on head = employeeid;
+
+select department.name as "Department",Physician.name as "Physician"
+from department 
+join physician 
+on department.head = physician.employeeid;
