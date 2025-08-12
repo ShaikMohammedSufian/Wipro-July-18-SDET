@@ -1,0 +1,1 @@
+git checkout -b branchname  is command for branching
