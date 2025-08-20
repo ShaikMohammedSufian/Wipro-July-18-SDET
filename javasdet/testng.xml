@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Testing" verbose="1" parallel="classes" thread-count="6">
+
+
+  <test name="Functional Testing">
+    <classes>
+    
+       <class name="com.wiprojuly.testng.MultipleTestNGTestCases"/>
+     	<class name="com.wiprojuly.testng.TestNGDependency"/>
+     
+     
+    </classes>
+  </test>
+
+</suite>
